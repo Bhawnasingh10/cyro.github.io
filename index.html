@@ -1,0 +1,551 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+
+  <!-- Bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+  <!-- Include fullPage.js CSS -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+  <!-- Include fullPage.js JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
+
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <video autoplay muted loop id="myVideo">
+    <source src="img/Landing Page BG.mp4" type="video/mp4">
+  </video>
+  <!-- navbar -->
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a href="#" style="font-size: 38px; font-weight: 600; color: #7c36ff;">Mol<span style="color: #fff;">Trix</span></a>
+          <!-- <img src="img/logo.png" alt="" height="200px" width="300px" class="mx-1" > -->
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item uline">
+              <a class="nav-link"  aria-current="page" href="#">Product</a>
+            </li>
+            <li class="nav-item uline">
+              <a class="nav-link" href="#">Team</a>
+            </li>
+            <li class="nav-item uline">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item uline">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+
+          </ul>
+          <form class="d-flex">
+            <button class="btn contact-btn" type="submit">Contact us</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+
+  <div id="fullpage">
+    
+
+    <div class="section">
+      <div class="container ">
+        <div class="row bannerpage ">
+         
+            <!-- <div class="fstimg">
+              <img src="img/4.png" class="d-block mx-lg-auto img-fluid" alt="..." width="700" height="500"
+                loading="lazy">
+            </div> -->
+            <div class=" text-center">
+         <img src="img/Moltrex.png" alt="img" height="300px" width="300px">
+        </div>
+            <h1 class="display-5 fw-bold text-body-light-3 text-center ">Novelity, Reproducibility, Scalability in cryo-electron microscopy</h1>
+            <!-- <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur eligendi exercitationem
+              rerum eaque. 
+            </p> -->
+            <div class="justify-content-md-start">
+              <button type="button" class="btn contact-btn my-3" style="margin-left: 45%;">Join us</button>
+            </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- what is cyro-em -->
+    <div class="section">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6 order-lg-last">
+            <!-- Use 'order-lg-last' class to move this column to the right on large screens -->
+            <h1 class="display-5 fw-bold text-body-light-3">What is <span class="highlight-container"><span
+                  class="highlight">Cyro-EM ?</span></span></h1>
+            <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the
+              world’s most popular front-end open source toolkit, featuring Sass variables and mixins,
+              responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+          </div>
+          <div class="col-10 col-sm-8 col-lg-6 order-lg-first">
+            <!-- Use 'order-lg-first' class to move this column to the left on large screens -->
+            <div class="what-is-img">
+              <img src="img/2.jpg" class="d-block mx-lg-auto img-fluid" alt="..." width="700" height="500"
+                loading="lazy">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- about us -->
+    <div class="section">
+      <div class="container my-5">
+        <div class="about-us row align-items-center rounded-3  shadow-lg">
+
+          <div class="col-lg-7 text-center">
+            <h1 class="display-4 fw-bold lh-1 text-body-light-3 mb-4">"Unraveling Our Story"</h1>
+            <p class="aboutlead">Moleverse is an innovative startup company bringing sustainability to the field of
+              structural biology. Moleverse accelerates visualization and analysis of protein structures with expertise
+              in cost- and time-efficient transformative sample application technique and machine learning at
+              near-atomic resolution.</p>
+            
+
+            <div class="d-grid gap-2 d-md-flex justify-content-center">
+              <button type="button" class="btn btn-outline-secondary btn-lg px-4 mt-4">Explore more</button>
+            </div>
+          </div>
+          <div class="col-lg-3 offset-lg-1 p-0 shadow-lg">
+            <img class="rounded-lg-3" src="img/1.png" alt="" width="750">
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Team -->
+    <div class="section">
+      <div class="container teamcontainer" style="background-color: transparent;">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="ourteam">
+                <h6>THE GENIUSES BEHIND OUR WORK</h6>
+                <h2>OUR TEAM</h2>
+                <div class="undescoreLine">
+                  <span></span>
+                  <div></div>
+                  <span></span>
+                </div>
+                <div class="row ">
+                  <div class="col-lg-5 teamimg">
+                    <img src="img/team3.png" alt="" width="350px" height="350px">
+                  </div>
+                  <div class="col-lg-5 teamcontent">
+                    <h3>Sahariar Kabir</h3>
+                    <hr>
+                    <h4>Frontend Developer</h4>
+                    <div class="teamicon my-4">
+                      <a href="#"><i class="fab fa-facebook-f mx-1" style="font-size: 20px;"></i></a>
+                      <a href="#"><i class="fab fa-instagram mx-1" style="font-size: 20px;"></i></a>
+                      <a href="#"><i class="fab fa-twitter mx-1" style="font-size: 20px;"></i></a>
+                      <a href="#"><i class="fab fa-linkedin-in mx-1" style="font-size: 20px;"></i></a>
+                    </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente corrupti voluptatum possimus
+                      vel praesentium nesciunt perferendis et, nostrum velit delectus! Lorem ipsum dolor, sit amet
+                      consectetur adipisicing elit. Aliquid, molestias. Odio, laborum asperiores minus nesciunt quidem
+                      corrupti repudiandae deleniti consequuntur.</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="ourteam">
+                <h6>THE GENIUSES BEHIND OUR WORK</h6>
+                <h2>OUR TEAM</h2>
+                <div class="undescoreLine">
+                  <span></span>
+                  <div></div>
+                  <span></span>
+                </div>
+                <div class="row ">
+                  <div class="col-lg-5 teamimg">
+                    <img src="img/team1.jpg" alt="" width="350px" height="350px">
+                  </div>
+                  <div class="col-lg-5 teamcontent">
+                    <h3>Sahariar Kabir</h3>
+                    <hr>
+                    <h4>Frontend Developer</h4>
+                    <div class="teamicon my-4">
+                      <a href="#"><i class="fab fa-facebook-f mx-1" style="font-size: 20px;"></i></a>
+                      <a href="#"><i class="fab fa-instagram mx-1" style="font-size: 20px;"></i></a>
+                      <a href="#"><i class="fab fa-twitter mx-1" style="font-size: 20px;"></i></a>
+                      <a href="#"><i class="fab fa-linkedin-in mx-1" style="font-size: 20px;"></i></a>
+                    </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente corrupti voluptatum possimus
+                      vel praesentium nesciunt perferendis et, nostrum velit delectus! Lorem ipsum dolor, sit amet
+                      consectetur adipisicing elit. Aliquid, molestias. Odio, laborum asperiores minus nesciunt quidem
+                      corrupti repudiandae deleniti consequuntur.</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="ourteam">
+                <h6>THE GENIUSES BEHIND OUR WORK</h6>
+                <h2>OUR TEAM</h2>
+                <div class="undescoreLine">
+                  <span></span>
+                  <div></div>
+                  <span></span>
+                </div>
+                <div class="row ">
+                  <div class="col-lg-5 teamimg">
+                    <img src="img/team2.jpg" alt="" width="350px" height="350px">
+                  </div>
+                  <div class="col-lg-5 teamcontent">
+                    <h3>Sahariar Kabir</h3>
+                    <hr>
+                    <h4>Frontend Developer</h4>
+                    <div class="teamicon my-4">
+                      <a href="#"><i class="fab fa-facebook-f mx-1" style="font-size: 20px;"></i></a>
+                      <a href="#"><i class="fab fa-instagram mx-1" style="font-size: 20px;"></i></a>
+                      <a href="#"><i class="fab fa-twitter mx-1" style="font-size: 20px;"></i></a>
+                      <a href="#"><i class="fab fa-linkedin-in mx-1" style="font-size: 20px;"></i></a>
+                    </div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente corrupti voluptatum possimus
+                      vel praesentium nesciunt perferendis et, nostrum velit delectus! Lorem ipsum dolor, sit amet
+                      consectetur adipisicing elit. Aliquid, molestias. Odio, laborum asperiores minus nesciunt quidem
+                      corrupti repudiandae deleniti consequuntur.</p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev teamprev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next teamnext" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Album -->
+    <div class="section">
+      <div class="section gallerysection justify-content-center align-item-centre">
+        <h2 class="galleryheading mt-3 mb-3 fw-bold display-6 text-center text-white">Gallery</h2>
+        <div class="row">
+          <div class="col col-lg-3">
+
+            <img class="card-img-top" src="img/cardleft.jpg" alt="Card image cap" height="505px" />
+          </div>
+          <div class="col col-lg-3">
+            <div class="row">
+
+              <img class="card-img-top" src="img/1.png" alt="Card image cap" height="250px" />
+
+            </div>
+            <div class="row mt-2">
+
+              <img class="card-img-top" src="img/2.jpg" alt="Card image cap" height="250px" />
+
+            </div>
+          </div>
+          <div class="col col-lg-3">
+
+            <img class="card-img-top" src="img/6.jpg" alt="Card image cap" height="505px" />
+
+          </div>
+          <div class="col col-lg-3">
+            <div class="row">
+
+              <img class="card-img-top" src="img/4.png" alt="Card image cap" height="250px" />
+
+            </div>
+            <div class="row mt-2">
+
+              <img class="card-img-top" src="img/5.jpg" alt="Card image cap" height="250px" />
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product -->
+    <div class="section Product">
+      <div class="container-fluid" style="background-color:rgba(149, 157, 165, 0.2) 0px 8px 24px;">
+
+        <div class="row serviceMain">
+          <h2>What we do.</h2>
+          <div class="services">
+
+
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="img/service1.jpg" alt="Avatar" style="width:350px;height:220px;">
+                  <h5>2D Class Averaging</h5>
+                </div>
+                <div class="flip-card-back">
+                  <p>2D averaging is a computational method used to improve the clarity and resolution of a molecule's
+                    structure. It involves aligning and averaging multiple 2D images obtained through electron
+                    microscopy or imaging techniques.</p>
+                  <!-- <button>Explore more</button>   -->
+                </div>
+              </div>
+            </div>
+
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="img/service2.jpg" alt="Avatar" style="width:350px;height:220px;">
+                  <h5>3d structure reconstruction</h5>
+                </div>
+                <div class="flip-card-back">
+                  <p>3D structure reconstruction is a technique used to determine the three-dimensional arrangement of
+                    molecules, such as proteins or nucleic acids.</p>
+                  <!-- <button>Explore more</button>    -->
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="img/service3.jpg" alt="Avatar" style="width:350px;height:220px;">
+                  <h5>Feasibiility Assesment</h5>
+                </div>
+                <div class="flip-card-back">
+                  <p>Feasibility assessment in structural biology involves evaluating the practicality and likelihood of
+                    obtaining structural information for a biomolecule.</p>
+                  <!-- <button>Explore more</button>  -->
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="img/service4.jpg" alt="Avatar" style="width:350px;height:220px;">
+                  <h5>Negative Stain Screening</h5>
+                </div>
+                <div class="flip-card-back">
+                  <p>Negative stain screening is a technique in structural biology that uses electron microscopy to
+                    quickly assess the shape and structure of macromolecules.</p>
+                  <!-- <button>Explore more</button>     -->
+                </div>
+              </div>
+            </div>
+
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="img/service5.jpg" alt="Avatar" style="width:350px;height:220px;">
+                  <h5>Single Particle Analysis</h5>
+                </div>
+                <div class="flip-card-back">
+                  <p>Single particle analysis is a powerful technique in structural biology that utilizes electron
+                    microscopy to determine the three-dimensional structure of macromolecules.</p>
+                  <!-- <button>Explore more</button>    -->
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+    <!-- footer -->
+    <div class="section">
+      <div class="media-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    <footer >
+      <div class="content">
+        <div class="left box">
+          <div class="upper">
+            <div class="topic my-4">About us</div>
+            <p>"Exploring the intricate world of structural biology, Moleverse revolutionizes scientific discovery through cutting-edge services and expertise."</p>
+          </div>
+          <div class="lower">
+            <div class="topic">Contact us</div>
+            <div class="phone my-2">
+              <a href="#"><i class="fas fa-phone-alt" ></i>
+                +007 9089 6767</a>
+            </div>
+            <div class="email">
+              <a href="#"><i class="fas fa-envelope"></i>abc@gmail.com</a>
+            </div>
+          </div>
+        </div>
+        <div class="middle box my-4">
+          <div class="topic">Our Services</div>
+          <div><a href="#">2D Class Averaging</a></div>
+          <div><a href="#">3D Structure Reconstruction</a></div>
+          <div><a href="#">Feasibility Assesment</a></div>
+          <div><a href="#">Negative Stain Screening</a></div>
+          <div><a href="#">Single Particle Analysis</a></div>
+        </div>
+        <div class="right box my-4">
+          <div class="topic">Subscribe us</div>
+          <form action="#">
+            <input type="text" placeholder="Enter email address">
+            <input type="submit" name="" value="Send">
+            <div class="media-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="bottom">
+        <p>Copyright © 2020 <a href="#">MoleVerse</a> All rights reserved</p>
+      </div>
+    </footer>
+    </div>
+
+    <!-- footer -->
+    <!-- <div class="section">
+      <div class="media-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+      <div class="container" data-bs-theme="light">
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+          <div class="col mb-3">
+            <a href="/" class="d-flex align-items-center mb-3 text-body-light-3 text-decoration-none">
+              <h1 class="f-logo">
+                MolVerse 
+              </h1>
+            </a>
+            <p class="text-body-light">© 2023</p>
+          </div>
+
+          <div class="col mb-3">
+
+          </div>
+          < address -->
+          <!-- <div class="col mb-3">
+            <h5>Address</h5>
+            <ul class="nav flex-column">
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423286.88284383685!2d-118.74138672836341!3d34.02003922868968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20Angeles%2C%20CA%2C%20USA!5e0!3m2!1sen!2sin!4v1690365944083!5m2!1sen!2sin" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+              <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia, optio.</p>
+              
+              <p> ph: +97 9895558585 </p>
+
+              <p> sundday@gmail.com </p>
+
+
+            </ul>
+          </div>
+           section -->
+          <!-- <div class="col mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column ">
+              <li class="nav-item mb-2 footer-section"><a href="#" class="nav-link p-0 ">Home</a></li>
+              <li class="nav-item mb-2 footer-section"><a href="#" class="nav-link p-0 ">Features</a>
+              </li>
+              <li class="nav-item mb-2 footer-section"><a href="#" class="nav-link p-0 ">Pricing</a>
+              </li>
+              <li class="nav-item mb-2 footer-section"><a href="#" class="nav-link p-0 ">FAQs</a></li>
+              <li class="nav-item mb-2 footer-section"><a href="#" class="nav-link p-0 ">About</a>
+              </li>
+            </ul>
+          </div>
+            Socialmedia -->
+          <!-- <div class="col mb-3">
+            <h5>Social Media</h5>
+            <ul class="nav flex-column">
+
+            </ul>
+          </div>
+
+
+          <div class="subscribe-section">
+            <div class="subscribe-heading">Subscribe to Our Newsletter</div>
+            <form class="subscribe-form" action="#" method="post">
+                <input type="email" class="subscribe-input" placeholder="Your Email Address" required>
+                <button type="submit" class="subscribe-button">Subscribe</button>
+            </form>
+        </div>
+
+        </footer>
+      </div>  -->
+
+    </div>
+  </div>
+
+
+
+
+  <!-- Bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+    </script>'
+
+  '
+  <!-- fullpage script -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      new fullpage('#fullpage', {
+        // Fullpage.js options
+      });
+    });
+  </script>
+</body>
+
+</html>

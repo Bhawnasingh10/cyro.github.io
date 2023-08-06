@@ -7,10 +7,10 @@
   overflow: visible;
 }
 
-/* .bannerpage{
+.bannerpage{
   width: 70%;
   margin-left: 35%;
-} */
+}
 
 /* .navbar {
   max-height: 120px;
@@ -18,6 +18,63 @@
   height: auto;
     background-color: #ededef3c;
 } */
+.subheading{
+  font-size: 30px;
+  color: #7c36ff;
+  text-align: center;
+}
+
+ h1.frame-5 {
+  opacity: 0; /* Initially set the opacity to 0 */
+  -webkit-transform: scale(0); /* Initially set the scale to 0 */
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-animation: blurFadeIn 0s ease-in 0s forwards; /* Apply the animation with a delay */
+  -moz-animation: blurFadeIn 0s ease-in 0s forwards;
+  -ms-animation: blurFadeIn 0s ease-in 0s forwards;
+  animation: blurFadeIn 0s ease-in 0s forwards;
+  color: transparent;
+  text-shadow: 0px 0px 1px #fff;
+}
+h1.frame5 span {
+  -webkit-animation: blurFadeIn 1s ease-in 0.1s backwards;
+  -moz-animation: blurFadeIn 1s ease-in 0.1s backwards;
+  -ms-animation: blurFadeIn 1s ease-in 0.1s backwards;
+  animation: blurFadeIn 1s ease-in 0.1s backwards;
+  color: transparent;
+  text-shadow: 0px 0px 1px #fff;
+}
+h1.frame5 span:nth-child(2) {
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -ms-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+h1.frame5 span:nth-child(3) {
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -ms-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+@-webkit-keyframes blurFadeIn {
+  0% {
+    opacity: 0;
+    text-shadow: 0px 0px 40px #fff;
+    -webkit-transform: scale(0.2);
+  }
+  50% {
+    opacity: 0.5;
+    text-shadow: 0px 0px 10px #fff;
+    -webkit-transform: scale(0.4);
+  }
+  100% {
+    opacity: 1;
+    text-shadow: 0px 0px 1px #fff;
+    -webkit-transform: scale(0);
+  }
+}
 
 #myVideo {
   position: fixed;
@@ -40,6 +97,7 @@
   border-bottom-style: solid;
   border-bottom-width: 2px;
   width: fit-content;
+  color: #7c36ff;
 }
 
 .contact-btn {
@@ -269,79 +327,43 @@
   color: white;
   text-align: center;
   font-size: 42px;
-  margin-bottom: 2%;
-  margin-top: 2%;
-  font-weight: 600;
-}
-
-.flip-card {
-  background-color: transparent;
-  width: 350px;
-  height: 220px;
-  /* perspective: 1000px; */
-  margin: auto;
-  gap: 4%;
-}
-
-.flip-card-front>h5 {
+  /* margin-bottom: 2%; */
   margin-top: 5%;
   font-weight: 600;
-  color: #fff;
 }
 
-.flip-card:nth-child(4) {
-  margin-top: 7%;
-  margin-left: 20%;
-  /* border: 2px solid red; */
-}
-
-.flip-card:nth-child(5) {
-  margin-top: 7%;
-  margin-right: 20%;
-  /* border: 2px solid red; */
-}
-
-.flip-card-inner {
+.serviceBox{
+  height: 90px;
+  width: 500px;
   position: relative;
-  width: 100%;
-  height: 100%;
+  border-radius: 10px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front,
-.flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-/* .flip-card-front {
-    background-color: #bbb;
-    color: black;
-   
-  } */
-
-.flip-card-back {
+  margin-top: 6%;
   background-color: rgba(255, 255, 255, 0.196);
-  ;
-  transform: rotateY(180deg);
+  /* border: 2px solid red; */
 }
 
-.flip-card-back>p {
-  text-align: justify;
-  padding: 6%;
-  color: white;
+.serviceBox h4{
+  margin-left: 60px;
+  /* border: 2px solid red; */
 }
-
+.serviceBoxInner{
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  bottom: 50px;
+  left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #7c36ff;
+  /* border: 2px solid green; */
+}
 /* CSS to style the Subscribe Us section (you can customize this according to your preferences) */
 .subscribe-section {
   background-color: transparent;
@@ -546,4 +568,4 @@ footer a:hover{
   }
 }
 
->>>>>>> 37e1c2a6be798e7006466986e60929dbc29e2abd
+/* >>>>>>> 37e1c2a6be798e7006466986e60929dbc29e2abd */

@@ -344,7 +344,13 @@ h1.frame5 span:nth-child(3) {
   text-align: center;
   margin-top: 6%;
   background-color: rgba(255, 255, 255, 0.196);
+  top: 0px;
+  transition: top ease 0.5s;
   /* border: 2px solid red; */
+}
+
+.serviceBox:hover{
+  top: -10px;
 }
 
 .serviceBox h4{
@@ -568,4 +574,4 @@ footer a:hover{
   }
 }
 
-/* >>>>>>> 37e1c2a6be798e7006466986e60929dbc29e2abd */
+>>>>>>> 37e1c2a6be798e7006466986e60929dbc29e2abd
